@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            text-align:"center";
+        }
+        .center_align{
+            text-align: center;
+        }
+        .right-align{
+            text-align: right;
+            width: 80px;
+        }
+        .first{
+            width: 150px;
+        }
+        .second{
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1px">
+        <tr>
+            <td rowspan = "11">TCB</td>
+            <td class = "center_align">Order no:</td>
+            <td colspan = "3">#ABO001</td>
+
+        </tr>
+        <tr>
+            <td class = "center_align">order Date: </td>
+            <td colspan = "3">23-Mar-2016</td>
+        </tr>
+        <tr>
+            <td colspan = "4" class = "center_align">Customer</td>
+        </tr>
+        <tr>
+            <td class = "center_align">Name: </td>
+            <td colspan = "3">John papas</td>
+        </tr>
+        <tr>
+            <td class = "center_align">Address: </td>
+            <td colspan = "3">Independence Day 5th str,11511</td>
+        </tr>
+        <tr>
+            <td colspan = "4" class = "center_align">Order Details</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class = "first">Mics and men</td>
+            <td class = "second">Book</td>
+            <td class = "right-align" >10.00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class = "first">Mics and men</td>
+            <td class="second">Book</td>
+            <td class = "right-align" >10.00</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class = "first">Mics and men</td>
+            <td class="second">Book</td>
+            <td class = "right-align" >10.00</td>
+        </tr>
+        <tr>
+            <td colspan = "3" class = "right-align">Total:</td>
+            <td class = "right-align" >272.00</td>
+        </tr>
+    </table>
+</body>
+</html>
