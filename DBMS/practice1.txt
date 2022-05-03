@@ -1,0 +1,56 @@
+create database student;
+show databases;
+use student;
+create table student_info(roll
+_no varchar(20),marks float,sample date,s_no int,date_ date
+
+date,workinghrs time);
+show tables;
+desc student;
+insert into student_info values("1","97","2002-08-11","2","23hrs");
+insert into student_info (roll_no)values('23');
+insert into student_info values("2","45","9.5","3","46,"9.4"),("3",46",
+"8.5","4","48","9.2");
+create database students;
+use students;
+create table data(name varchar(10));
+insert into student.
+student_info (roll_no,marks) values("3","65");
+alter table student_info add phone varchar(10);
+alter table student_info add year varchar(10) first;
+alter table student_info add subject1 int(3) after 
+alter table student_info change column roll_no  roll varchar(10); 
+alter table student_info modify roll int(3);
+alter table student_info drop roll;
+drop table student_info;
+delete from student_info ;
+delete from student_info where roll="1";
+drop database student;
+drop database student;
+update table student_info set roll_no="2" where roll_no="1";
+update table student_info set roll_no="1";
+update table student_info set roll_no="2",year=2022;
+select * from student_info;
+select rollno from student_info;
+select * from student_info where name="r";
+select * from student_info order by roll_no;
+select * from student_info order by roll_no desc;
+select * from student_info order by roll_no,year desc;
+select * from student_info where student_name like "s%
+;
+select * from student_info where student_name like "%s"
+;
+select * from student_info where student_name like "%s%
+;
+select * from student_info where student_name like "_s%
+;
+select * from student_info where student_name like "_s_s%";
+;
+select * from student_info where roll_no=1 or name="s%";
+select * from student_info where student_name not like "s%" 
+;
+select 3+4/6*23%1 from dual;
+selct (2+4)+12/23-45;
+
+
+
